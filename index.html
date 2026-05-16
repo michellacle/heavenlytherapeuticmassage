@@ -1,332 +1,135 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Heavenly Therapeutic Massage | Expert Massage Therapy in Homestead, FL</title>
-  <meta name="description" content="Licensed therapeutic massage, post-surgical lymphatic drainage, and body sculpting in Homestead, FL. Serving Miami, Key Largo & Redlands. Book online today.">
-  <meta name="keywords" content="massage therapy Homestead FL, lymphatic drainage Miami, post-op massage, sports massage, deep tissue massage, body sculpting">
-  <meta name="author" content="Heavenly Therapeutic Massage">
-  <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://www.heavenlytherapeuticmassage.com/">
-  <meta property="og:title" content="Heavenly Therapeutic Massage | Homestead, FL">
-  <meta property="og:description" content="Expert therapeutic massage, post-surgical lymphatic drainage, and body sculpting. Trusted by 200+ clients.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.heavenlytherapeuticmassage.com/">
-  <meta property="og:locale" content="en_US">
-  <meta name="twitter:card" content="summary_large_image">
+  <title>Heavenly Therapeutic Massage | Homestead, FL</title>
+  <meta name="description" content="Heavenly Therapeutic Massage in Homestead, FL. Therapeutic massage, post-op lymphatic drainage, body sculpting, and mobile services for Miami-Dade clients.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "MedicalBusiness",
-    "name": "Heavenly Therapeutic Massage",
-    "description": "Expert therapeutic massage, post-surgical lymphatic drainage, and body sculpting in Homestead, FL.",
-    "url": "https://www.heavenlytherapeuticmassage.com",
-    "telephone": "+1-786-873-1191",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "42 W Mowry Dr #216",
-      "addressLocality": "Homestead",
-      "addressRegion": "FL",
-      "postalCode": "33030",
-      "addressCountry": "US"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 25.4687,
-      "longitude": -80.4776
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "200"
-    },
-    "priceRange": "$$",
-    "openingHoursSpecification": [
-      {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
-        "opens": "09:00",
-        "closes": "18:00"
-      },
-      {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": "Saturday",
-        "opens": "09:00",
-        "closes": "15:00"
-      }
-    ],
-    "areaServed": [
-      {"@type": "City", "name": "Homestead"},
-      {"@type": "City", "name": "Miami"},
-      {"@type": "City", "name": "Key Largo"},
-      {"@type": "City", "name": "Redlands"},
-      {"@type": "City", "name": "Key Biscayne"}
-    ],
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "Massage Therapy Services",
-      "itemListElement": [
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Post-Op Lymphatic Drainage"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Deep Tissue & Sports Massage"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Swedish & Aromatherapy"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Hot Stone Massage"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Body Sculpting"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Pregnancy & Mommy & Baby"}}
-      ]
-    }
-  }
-  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/rebuild.css">
 </head>
 <body>
   <header class="site-header" id="header">
-    <div class="container header-inner">
-      <a href="#" class="logo">
-        <span class="logo-icon">&#10053;</span>
-        <span class="logo-text">Heavenly</span>
+    <div class="container header-row">
+      <a href="#" class="brand">
+        <img src="https://www.heavenlytherapeuticmassage.com/usergraphics/195993/logo195993-new2021-off-white_web.jpg" alt="Heavenly Therapeutic Massage logo">
+        <span>Heavenly Therapeutic Massage</span>
       </a>
-      <nav class="main-nav" id="mainNav">
-        <ul>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#reviews">Reviews</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">Menu</button>
+      <nav class="site-nav" id="siteNav">
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#visit">Visit</a>
+        <a href="#booking" class="nav-cta">Book</a>
       </nav>
-      <a href="#book" class="btn btn-primary header-cta">Book Now</a>
-      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
     </div>
   </header>
 
-  <div class="mobile-nav-overlay" id="mobileNavOverlay">
-    <nav class="mobile-nav">
-      <a href="#services" class="mobile-nav-link">Services</a>
-      <a href="#about" class="mobile-nav-link">About</a>
-      <a href="#reviews" class="mobile-nav-link">Reviews</a>
-      <a href="#contact" class="mobile-nav-link">Contact</a>
-      <a href="#book" class="btn btn-primary mobile-nav-cta">Book Now</a>
-    </nav>
-  </div>
-
   <main>
-    <section class="hero" id="hero">
-      <div class="hero-bg"></div>
+    <section class="hero">
+      <div class="hero-media">
+        <img src="https://www.heavenlytherapeuticmassage.com/templates/new/imagelibrary/customslides/195993/slide03.jpg" alt="Massage treatment room">
+      </div>
       <div class="container hero-content">
-        <div class="hero-badge">Licensed Therapists &middot; 10+ Years of Experience</div>
-        <h1>Expert Massage Therapy<br>That Understands You</h1>
-        <p class="hero-subtitle">Therapeutic massage, post-surgical lymphatic drainage, and body sculpting in a tranquil Homestead wellness studio &mdash; or at your door.</p>
+        <p class="eyebrow">Homestead, FL · Mobile Service Available</p>
+        <h1>Massage and post-op care with real therapeutic focus.</h1>
+        <p class="lead">Licensed massage therapists serving Homestead, Miami, Key Largo, and Redlands with lymphatic drainage, deep tissue work, and recovery-centered treatment plans.</p>
         <div class="hero-actions">
-          <a href="#book" class="btn btn-primary btn-large">Book Appointment</a>
-          <a href="#services" class="btn btn-outline btn-large">View Services</a>
-        </div>
-        <div class="hero-rating">
-          <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
-          <span>Rated 4.9 &middot; 200+ reviews on Google</span>
+          <a class="btn btn-primary" href="tel:+17868731191">Call 786-873-1191</a>
+          <a class="btn btn-secondary" href="#booking">Booking Options</a>
         </div>
       </div>
     </section>
 
-    <section class="services" id="services">
+    <section class="section section-alt" id="services">
       <div class="container">
-        <div class="section-header">
-          <span class="section-label">What We Offer</span>
-          <h2>Our Specialized Services</h2>
-          <p class="section-subtitle">From deep therapeutic relief to post-surgical recovery &mdash; we tailor every session to your needs.</p>
-        </div>
+        <h2>Core Services</h2>
+        <p class="section-intro">Stage one focuses on the highest-demand services from the original site, with clear positioning and starting prices.</p>
         <div class="services-grid">
-          <div class="service-card featured">
-            <span class="service-badge">Most Requested</span>
-            <div class="service-icon">&#127969;</div>
+          <article>
             <h3>Post-Op Lymphatic Drainage</h3>
-            <p>Accelerate recovery after BBL, liposuction, mommy 360, or cosmetic surgery. Medically-informed technique for safe, effective healing.</p>
-            <div class="service-price">Starting at $150</div>
-          </div>
-          <div class="service-card">
-            <div class="service-icon">&#127465;</div>
+            <p>Supportive care after cosmetic procedures, focused on swelling management and recovery comfort.</p>
+            <p class="price">Starting at $150</p>
+          </article>
+          <article>
             <h3>Deep Tissue & Sports Massage</h3>
-            <p>Target deep muscle tension and injury recovery. Ideal for athletes, fitness enthusiasts, and chronic pain sufferers.</p>
-            <div class="service-price">Starting at $95</div>
-          </div>
-          <div class="service-card">
-            <div class="service-icon">&#129305;</div>
-            <h3>Swedish & Aromatherapy</h3>
-            <p>Classic full-body relaxation with therapeutic essential oils. Perfect for stress relief and general wellness.</p>
-            <div class="service-price">Starting at $85</div>
-          </div>
-          <div class="service-card">
-            <div class="service-icon">&#128293;</div>
-            <h3>Hot Stone Massage</h3>
-            <p>Heated basalt stones placed on key meridian points for maximum muscle relaxation and improved circulation.</p>
-            <div class="service-price">Starting at $110</div>
-          </div>
-          <div class="service-card">
-            <div class="service-icon">&#127466;</div>
-            <h3>Body Sculpting</h3>
-            <p>Non-invasive fat reduction and cellulite treatment. Contour and reshape without surgery or downtime.</p>
-            <div class="service-price">Starting at $120</div>
-          </div>
-          <div class="service-card">
-            <div class="service-icon">&#129497;</div>
-            <h3>Pregnancy & Mommy & Baby</h3>
-            <p>Specialized prenatal massage and baby massage classes taught by licensed therapists.</p>
-            <div class="service-price">Starting at $90</div>
-          </div>
-        </div>
-        <p class="services-note">Also offering: Shiatsu, Reflexology, Four-Hand Massage & more. <a href="#book">Contact us</a> for the full service menu.</p>
-      </div>
-    </section>
-
-    <section class="trust-bar" id="about">
-      <div class="container trust-grid">
-        <div class="trust-item">
-          <div class="trust-number">10+</div>
-          <div class="trust-label">Years of Practice</div>
-        </div>
-        <div class="trust-item">
-          <div class="trust-number">4</div>
-          <div class="trust-label">Licensed Therapists</div>
-        </div>
-        <div class="trust-item">
-          <div class="trust-number">4.9</div>
-          <div class="trust-label">Google Rating</div>
-        </div>
-        <div class="trust-item">
-          <div class="trust-number">200+</div>
-          <div class="trust-label">Client Reviews</div>
+            <p>Targeted work for chronic tension, athletic recovery, and movement restrictions.</p>
+            <p class="price">Starting at $95</p>
+          </article>
+          <article>
+            <h3>Swedish, Relaxation & Aromatherapy</h3>
+            <p>Full-body stress reduction and nervous-system reset, with optional aroma support.</p>
+            <p class="price">Starting at $85</p>
+          </article>
+          <article>
+            <h3>Body Sculpting & Contouring</h3>
+            <p>Non-invasive body contour sessions integrated with wellness routines.</p>
+            <p class="price">Starting at $120</p>
+          </article>
         </div>
       </div>
     </section>
 
-    <section class="about-section">
-      <div class="container about-grid">
-        <div class="about-image">
-          <div class="about-image-placeholder">
-            <span>&#127963;</span>
-          </div>
-        </div>
-        <div class="about-text">
-          <span class="section-label">Why Choose Us</span>
-          <h2>Trusted Care for Your Body</h2>
-          <p>At Heavenly Therapeutic Massage, we bring over a decade of specialized experience to every session. Our team of four licensed therapists specializes in therapeutic and medical massage, with particular expertise in post-surgical lymphatic drainage care.</p>
-          <ul class="about-features">
-            <li>State-licensed massage therapists</li>
-            <li>Specialized post-operative care for BBL, mommy 360 &amp; cosmetic surgery</li>
-            <li>In-studio or in-home service available</li>
-            <li>Clean, tranquil wellness studio in Homestead</li>
-            <li>Flexible scheduling with online booking</li>
+    <section class="section" id="about">
+      <div class="container two-col">
+        <div>
+          <h2>Why clients choose Heavenly</h2>
+          <ul class="checklist">
+            <li>Licensed massage therapists focused on pain and stress relief</li>
+            <li>Strong specialization in post-cosmetic-surgery lymphatic drainage</li>
+            <li>Studio sessions plus in-home and office service options</li>
+            <li>Consultative approach for recurring care and package planning</li>
           </ul>
         </div>
-      </div>
-    </section>
-
-    <section class="reviews" id="reviews">
-      <div class="container">
-        <div class="section-header">
-          <span class="section-label">Testimonials</span>
-          <h2>What Our Clients Say</h2>
-          <p class="section-subtitle">Real reviews from verified clients on Google and Yelp</p>
-        </div>
-        <div class="reviews-grid">
-          <div class="review-card">
-            <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-            <blockquote>"Lisa worked magic on my post-BBL recovery. My lymphatic drainage sessions took my healing from weeks to days. I can't recommend her enough."</blockquote>
-            <div class="review-author">
-              <strong>Sarah M.</strong>
-              <span>Key Biscayne &middot; Google Review</span>
-            </div>
-          </div>
-          <div class="review-card">
-            <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-            <blockquote>"As a marathon runner, deep tissue massage here is my monthly must. The therapists actually understand sports injuries and muscular anatomy."</blockquote>
-            <div class="review-author">
-              <strong>Carlos R.</strong>
-              <span>Homestead &middot; Google Review</span>
-            </div>
-          </div>
-          <div class="review-card">
-            <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-            <blockquote>"The office is beautiful, clean, and so peaceful. I drive 40 minutes every time to come here. Worth every mile."</blockquote>
-            <div class="review-author">
-              <strong>Angela T.</strong>
-              <span>Miami &middot; Yelp Review</span>
-            </div>
-          </div>
+        <div class="image-stack">
+          <img src="https://www.heavenlytherapeuticmassage.com/usergraphics/195993/sm_Massage-Table.jpg" alt="Massage table at Heavenly">
+          <img src="https://www.heavenlytherapeuticmassage.com/usergraphics/195993/sm_IMG_1891.JPG" alt="Heavenly treatment setup">
         </div>
       </div>
     </section>
 
-    <section class="booking" id="book">
+    <section class="section section-alt" id="booking">
       <div class="container">
-        <div class="section-header">
-          <span class="section-label">Simple Booking</span>
-          <h2>Book in 60 Seconds</h2>
+        <h2>Booking & Payment Transition (Stage One)</h2>
+        <p class="section-intro">Current booking remains available while we replace Vagaro with a cleaner stack.</p>
+        <div class="migration-grid">
+          <article>
+            <h3>Now</h3>
+            <p>Call/text booking is prioritized for confirmation speed. Existing Vagaro page remains available during transition.</p>
+            <a class="btn btn-secondary" href="https://www.vagaro.com/heavenlytherapeuticmassage1/book-now" target="_blank" rel="noopener noreferrer">Open Current Booking</a>
+          </article>
+          <article>
+            <h3>Recommended Next</h3>
+            <p><strong>Payments:</strong> Stripe Payment Links + invoices for deposits and package balances.</p>
+            <p><strong>Scheduling:</strong> Acuity Scheduling (Squarespace Scheduling) for therapist calendars, intake forms, and timezone-safe appointment flows.</p>
+          </article>
         </div>
-        <div class="booking-steps">
-          <div class="step">
-            <div class="step-number">1</div>
-            <h3>Choose Your Service</h3>
-            <p>Browse our menu with transparent pricing and select the treatment that fits your needs.</p>
-          </div>
-          <div class="step">
-            <div class="step-number">2</div>
-            <h3>Pick a Time</h3>
-            <p>View real-time availability and book your appointment online &mdash; no phone tag required.</p>
-          </div>
-          <div class="step">
-            <div class="step-number">3</div>
-            <h3>Relax &amp; Receive</h3>
-            <p>Arrive, fill out a quick intake form, and let our licensed therapists take care of you.</p>
-          </div>
+      </div>
+    </section>
+
+    <section class="section" id="visit">
+      <div class="container contact-grid">
+        <div>
+          <h2>Visit & Contact</h2>
+          <p><strong>Phone:</strong> <a href="tel:+17868731191">786-873-1191</a></p>
+          <p><strong>Email:</strong> <a href="mailto:heavenlytherapeuticmassage@gmail.com">heavenlytherapeuticmassage@gmail.com</a></p>
+          <p><strong>Address:</strong> 42 W Mowry Drive #216, Homestead, FL 33030</p>
+          <p><strong>Hours:</strong> Mon-Fri 10-8 · Sat 10-7 · Sun 10-5</p>
         </div>
-        <div class="booking-cta">
-          <a href="tel:+17868731191" class="btn btn-primary btn-large">Call 786-873-1191</a>
-          <p class="booking-note">Or visit us at 42 W Mowry Dr #216, Homestead, FL</p>
+        <div>
+          <iframe title="Heavenly Therapeutic Massage map" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=42+W+Mowry+Drive+%23216,+Homestead,+FL+33030&output=embed"></iframe>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer" id="contact">
-    <div class="container footer-grid">
-      <div class="footer-brand">
-        <div class="logo">
-          <span class="logo-icon">&#10053;</span>
-          <span class="logo-text">Heavenly</span>
-        </div>
-        <p>Expert therapeutic massage and post-surgical care in Homestead, Florida.</p>
-      </div>
-      <div class="footer-info">
-        <h4>Contact</h4>
-        <p>42 W Mowry Dr #216<br>Homestead, FL 33030</p>
-        <p><a href="tel:+17868731191">786-873-1191</a></p>
-      </div>
-      <div class="footer-hours">
-        <h4>Hours</h4>
-        <p>Mon &ndash; Fri: 9am &ndash; 6pm</p>
-        <p>Saturday: 9am &ndash; 3pm</p>
-        <p>Sunday: Closed</p>
-      </div>
-      <div class="footer-areas">
-        <h4>Serving</h4>
-        <p>Homestead &middot; Miami &middot; Key Largo &middot; Redlands &middot; Key Biscayne</p>
-      </div>
-    </div>
-    <div class="container footer-bottom">
-      <p>&copy; 2026 Heavenly Therapeutic Massage. All rights reserved.</p>
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 Heavenly Therapeutic Massage · Homestead, Florida</p>
     </div>
   </footer>
-
-  <div class="mobile-sticky-cta" id="mobileStickyCta">
-    <a href="#book" class="btn btn-primary">Book Now</a>
-  </div>
 
   <script src="js/main.js"></script>
 </body>
