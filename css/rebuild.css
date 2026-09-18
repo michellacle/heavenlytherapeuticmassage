@@ -339,6 +339,7 @@ h2 {
 @media (max-width: 920px) {
   .services-grid,
   .two-col,
+  .info-grid,
   .migration-grid,
   .contact-grid {
     grid-template-columns: 1fr;
