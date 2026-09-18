@@ -56,6 +56,11 @@ body {
   font-size: 0.96rem;
 }
 
+.brand-mark {
+  font-family: "Merriweather", serif;
+  font-size: 1.1rem;
+}
+
 .brand img {
   width: 44px;
   height: 44px;
@@ -97,6 +102,10 @@ body {
 .hero-media {
   position: absolute;
   inset: 0;
+  background-image: url("https://www.heavenlytherapeuticmassage.com/templates/new/imagelibrary/customslides/195993/slide03.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero-media::after {
