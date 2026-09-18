@@ -242,7 +242,7 @@ h2 {
   margin-bottom: 9px;
 }
 
-.image-stack {
+.info-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
@@ -260,7 +260,7 @@ h2 {
   color: var(--muted);
 }
 
-.image-stack .info-card {
+.info-grid .info-card {
   min-height: 100%;
 }
 
