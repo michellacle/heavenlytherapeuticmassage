@@ -260,6 +260,10 @@ h2 {
   color: var(--muted);
 }
 
+.image-stack .info-card {
+  min-height: 100%;
+}
+
 .image-stack img {
   width: 100%;
   aspect-ratio: 4 / 5;
