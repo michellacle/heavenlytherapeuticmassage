@@ -56,11 +56,6 @@ body {
   font-size: 0.96rem;
 }
 
-.brand-mark {
-  font-family: "Merriweather", serif;
-  font-size: 1.1rem;
-}
-
 .brand img {
   width: 44px;
   height: 44px;
@@ -102,10 +97,6 @@ body {
 .hero-media {
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, #6b8b7f, #2f5144);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .hero-media::after {
@@ -251,26 +242,10 @@ h2 {
   margin-bottom: 9px;
 }
 
-.info-grid {
+.image-stack {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
-}
-
-.info-card {
-  background: var(--surface);
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  padding: 20px;
-}
-
-.info-card p {
-  margin: 10px 0 0;
-  color: var(--muted);
-}
-
-.info-grid .info-card {
-  min-height: 100%;
 }
 
 .image-stack img {
@@ -299,13 +274,6 @@ h2 {
   color: var(--muted);
 }
 
-.migration-grid .btn-secondary {
-  margin-top: 14px;
-  color: var(--brand-dark);
-  border-color: var(--line);
-  background: var(--surface-alt);
-}
-
 .contact-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -329,10 +297,6 @@ h2 {
   border-radius: 8px;
 }
 
-.results-card {
-  min-height: 100%;
-}
-
 .site-footer {
   border-top: 1px solid var(--line);
   background: var(--surface);
@@ -348,7 +312,6 @@ h2 {
 @media (max-width: 920px) {
   .services-grid,
   .two-col,
-  .info-grid,
   .migration-grid,
   .contact-grid {
     grid-template-columns: 1fr;
